@@ -1,15 +1,10 @@
 {
   "records": [
-    {
-      "id": "recUF14h9EMesmSip",
-      "createdTime": "2026-09-29T17:28:50.000Z",
-      "fields": {
-        "Status": "Published",
-        "Access Link": "https://your-payment-or-checkout-link.com",
-        "Description": "This is a quick test product description.",
-        "Resource Name": "My First Digital Asset",
-        "Category": "Freebie"
-      }
-    }
+    {"id": "recDemo1", "fields": {"Resource Name": "Weekly Planner (Example)", "Category": "Freebie", "Description": "An example free download. In your own site this card links to anything you give away.", "Access Link": "https://payhip.com/b/etNcM"}},
+    {"id": "recDemo2", "fields": {"Resource Name": "Brand Kit Template (Example)", "Category": "Notion Template", "Description": "An example template card. Add your own items in Airtable and they appear here after the next sync.", "Access Link": "https://payhip.com/b/etNcM"}},
+    {"id": "recDemo3", "fields": {"Resource Name": "30 Day Content Calendar (Example)", "Category": "Premium Guide", "Description": "An example paid guide. Set Status to Published in Airtable to show an item, and unpublish it to hide it.", "Access Link": "https://payhip.com/b/etNcM"}},
+    {"id": "recDemo4", "fields": {"Resource Name": "My Favorite Tools (Example)", "Category": "Resource List", "Description": "An example resource list. Each card can use a cover photo, a category label, and any link you choose.", "Access Link": "https://payhip.com/b/etNcM"}},
+    {"id": "recDemo5", "fields": {"Resource Name": "Email Welcome Swipe File (Example)", "Category": "Premium Guide", "Description": "Another example card, so you can see how a full grid looks on desktop and on a phone.", "Access Link": "https://payhip.com/b/etNcM"}},
+    {"id": "recDemo6", "fields": {"Resource Name": "Photo Presets Pack (Example)", "Category": "Freebie", "Description": "A last example card. Everything on this page is made-up sample content.", "Access Link": "https://payhip.com/b/etNcM"}}
   ]
 }
