@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Catalog</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-row">
+    <span class="brand" id="brand-name">Your Business Name</span>
+    <a href="#catalog" class="btn btn-primary btn-small">View Catalog</a>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap">
+      <div class="hero-copy">
+        <p class="eyebrow">Always Up To Date</p>
+        <h1>Everything I sell, in one place.</h1>
+        <p class="hero-sub" id="hero-subtext">Browse what's available right now — updated automatically, no broken links, no cluttered link-in-bio page.</p>
+        <a href="#catalog" class="btn btn-primary">Browse the Catalog</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRUST STRIP -->
+  <section class="trust-strip">
+    <div class="wrap trust-row" id="trust-row">
+      <!-- populated by app.js from CONFIG.credentials -->
+    </div>
+  </section>
+
+  <!-- CATALOG (live, synced from Airtable) -->
+  <section id="catalog" class="catalog">
+    <div class="wrap">
+      <p class="eyebrow center">The Catalog</p>
+      <h2 class="center">What's Available Right Now</h2>
+      <div id="resource-container" class="resource-grid">
+        <p class="loading">Loading your catalog…</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CLOSING CTA -->
+  <section class="cta">
+    <div class="wrap cta-inner">
+      <div class="cta-card">
+        <h2 id="closing-heading">Want to work together?</h2>
+        <p class="cta-note" id="closing-subtext">Reach out and let's talk about what you need.</p>
+        <!-- CLIENT ACTION REQUIRED: replace with your real contact/checkout link -->
+        <a href="#" id="closing-link" class="btn btn-primary btn-wide" target="_blank" rel="noopener noreferrer">Get In Touch</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-row">
+    <span id="footer-name">Your Business Name</span>
+    <span class="footer-muted">Powered by a live, self-updating catalog</span>
+    <a class="footer-muted" href="accessibility.html">Accessibility</a>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

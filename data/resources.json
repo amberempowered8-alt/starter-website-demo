@@ -1,0 +1,15 @@
+{
+  "records": [
+    {
+      "id": "recUF14h9EMesmSip",
+      "createdTime": "2026-09-29T17:28:50.000Z",
+      "fields": {
+        "Status": "Published",
+        "Access Link": "https://your-payment-or-checkout-link.com",
+        "Description": "This is a quick test product description.",
+        "Resource Name": "My First Digital Asset",
+        "Category": "Freebie"
+      }
+    }
+  ]
+}
