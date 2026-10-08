@@ -1,18 +1,14 @@
 // =========================================================================
-// STARTER WEBSITE (AIRTABLE-POWERED CATALOG) — CONFIG
-// Edit everything in the CONFIG object below. You don't need to touch
-// index.html or style.css to customize the content.
-//
-// Your Airtable catalog is kept up to date automatically and safely —
-// see SETUP-GUIDE.md for the one-time setup. You never paste any secret
-// token into this file.
+// STARTER WEBSITE: PUBLIC DEMO COPY (fake information only)
+// This is a demo. The catalog below is made-up sample data stored in
+// data/resources.json. The paid template reads a live Airtable catalog.
 // =========================================================================
 
 const CONFIG = {
-    siteName: "Your Business Name",
+    siteName: "Sample Creator Studio",
 
     heroHeadline: "Everything I sell, in one place.",
-    heroSubtext: "Browse what's available right now — updated automatically, no broken links, no cluttered link-in-bio page.",
+    heroSubtext: "Browse what's available right now. Updated automatically, no broken links, no cluttered link-in-bio page.",
 
     credentials: [
         "Updated automatically",
@@ -20,14 +16,10 @@ const CONFIG = {
         "You own the code"
     ],
 
-    // The closing call-to-action block at the bottom of the page.
-    // Point this at whatever you want visitors to do next — book a call,
-    // join your email list, message you, etc.
-    closingHeadline: "Want to work together?",
-    closingSubtext: "Reach out and let's talk about what you need.",
-    closingButtonText: "Get In Touch",
-    // CLIENT ACTION REQUIRED: replace with your real contact/checkout link
-    closingLink: "https://your-contact-or-checkout-link.com"
+    closingHeadline: "Like what you see?",
+    closingSubtext: "This whole site is a demo. Get your own copy, with the setup guide and the Airtable catalog included.",
+    closingButtonText: "Get This Website",
+    closingLink: "https://payhip.com/b/etNcM"
 };
 
 // =========================================================================
@@ -75,7 +67,7 @@ function renderClosing() {
  * Loads your catalog from data/resources.json — a plain data file that a
  * scheduled GitHub Action keeps in sync with your Airtable base. This file
  * never contains your Airtable token; it only contains the published
- * records themselves. See SETUP-GUIDE.md for how the sync works.
+ * records themselves. In this demo the file holds made-up sample data.
  */
 async function fetchResources() {
     const container = document.getElementById('resource-container');
@@ -89,7 +81,7 @@ async function fetchResources() {
             container.innerHTML = `
                 <p class="loading">
                     Your catalog will appear here once the automatic sync runs for the first time
-                    (usually within a few minutes of finishing setup). See Step 3 in SETUP-GUIDE.md.
+                    (usually within a few minutes of finishing setup).
                 </p>`;
             return;
         }
