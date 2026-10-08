@@ -3,10 +3,16 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Catalog</title>
-<link rel="stylesheet" href="style.css">
+<meta name="robots" content="noindex">
+<title>Starter Website Demo | AE9 Labs</title>
+<link rel="stylesheet" href="style.css?v=1">
 </head>
 <body>
+
+<div class="demo-banner" role="note">
+  PUBLIC DEMO. Fake information only. The items below are examples, and their buttons open the template's sales page.
+  <a href="https://payhip.com/b/etNcM" target="_blank" rel="noopener noreferrer">Get this website</a>
+</div>
 
 <header class="site-header">
   <div class="wrap header-row">
@@ -23,7 +29,7 @@
       <div class="hero-copy">
         <p class="eyebrow">Always Up To Date</p>
         <h1>Everything I sell, in one place.</h1>
-        <p class="hero-sub" id="hero-subtext">Browse what's available right now — updated automatically, no broken links, no cluttered link-in-bio page.</p>
+        <p class="hero-sub" id="hero-subtext">Browse what's available right now.</p>
         <a href="#catalog" class="btn btn-primary">Browse the Catalog</a>
       </div>
     </div>
@@ -31,18 +37,16 @@
 
   <!-- TRUST STRIP -->
   <section class="trust-strip">
-    <div class="wrap trust-row" id="trust-row">
-      <!-- populated by app.js from CONFIG.credentials -->
-    </div>
+    <div class="wrap trust-row" id="trust-row"></div>
   </section>
 
-  <!-- CATALOG (live, synced from Airtable) -->
+  <!-- CATALOG (sample data in this demo) -->
   <section id="catalog" class="catalog">
     <div class="wrap">
       <p class="eyebrow center">The Catalog</p>
       <h2 class="center">What's Available Right Now</h2>
       <div id="resource-container" class="resource-grid">
-        <p class="loading">Loading your catalog…</p>
+        <p class="loading">Loading the catalog…</p>
       </div>
     </div>
   </section>
@@ -51,10 +55,9 @@
   <section class="cta">
     <div class="wrap cta-inner">
       <div class="cta-card">
-        <h2 id="closing-heading">Want to work together?</h2>
-        <p class="cta-note" id="closing-subtext">Reach out and let's talk about what you need.</p>
-        <!-- CLIENT ACTION REQUIRED: replace with your real contact/checkout link -->
-        <a href="#" id="closing-link" class="btn btn-primary btn-wide" target="_blank" rel="noopener noreferrer">Get In Touch</a>
+        <h2 id="closing-heading">Like what you see?</h2>
+        <p class="cta-note" id="closing-subtext"></p>
+        <a href="#" id="closing-link" class="btn btn-primary btn-wide" target="_blank" rel="noopener noreferrer">Get This Website</a>
       </div>
     </div>
   </section>
@@ -64,11 +67,10 @@
 <footer class="site-footer">
   <div class="wrap footer-row">
     <span id="footer-name">Your Business Name</span>
-    <span class="footer-muted">Powered by a live, self-updating catalog</span>
-    <a class="footer-muted" href="accessibility.html">Accessibility</a>
+    <span class="footer-muted">Public demo by AE9 Labs. Fake information only.</span>
   </div>
 </footer>
 
-<script src="app.js"></script>
+<script src="app.js?v=1"></script>
 </body>
 </html>
